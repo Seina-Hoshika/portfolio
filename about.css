@@ -57,16 +57,7 @@ h2{
     font-weight: 400;
 }
 
-
-nav{
-    background-color: #FFFEF3 !important;
-}
-
-body{
-    background-color: var(--white);
-}
-
-/* define end*/
+/* define end */
 
 .nav-section{
 background-color: #FFFEF3 !important;
@@ -74,53 +65,44 @@ padding-left: 5rem !important;
 padding-right: 5rem !important;
 }
 
-.hero-section{
-background-color: var(--lightgreen);
-padding: 5rem 7.5rem !important;
+.seina-pic{
+    border-radius: 50% !important;
 }
 
-.img-container{
-display: flex !important; 
-flex-direction: row !important;
-justify-content: center !important;
-align-items: center !important;
-width: 100% !important;
+.intro-section{
+    padding-left: 7.5rem !important;
+    padding-right: 7.5rem !important;
 }
 
-.explain{
-display: flex;
-flex-wrap: wrap;
-gap: 4rem;
-padding: 2.5rem 7.5rem;
+.education{
+    display: flex;
+    flex-direction: row;
+    padding:  7.5rem 3rem;
 }
 
-.left-content{
-flex: 1;
-min-width: 28.75rem;
-}
+    .left-container{
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        gap: 1.5rem;
+        height: auto;
+    }
 
-.right-content{
-flex: 0 0 auto
-}
+        .background{
+            display: grid;
+            grid-template-rows: 20px 20px;
+        }
 
-.upper {
-display: flex;
-flex-direction: row;
-gap: 0.5rem;
-}
+        .role{
+            display: grid;
+            grid-template-columns: auto;
+        }
 
-.lower {
-display: flex;
-flex-direction: row;
-gap: 0.5rem;
-}
-
-.item{
-padding-right: 4rem;
-}
-
-.process{
-padding: 2.5rem 7.5rem;
+.pic-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 100%;
 }
 
 footer{
