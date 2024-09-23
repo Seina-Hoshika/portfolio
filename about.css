@@ -59,6 +59,10 @@ h2{
 
 /* define end */
 
+body{
+    background-color: var(--white) !important;
+}
+
 .nav-section{
 background-color: #FFFEF3 !important;
 padding-left: 5rem !important;
@@ -74,28 +78,43 @@ padding-right: 5rem !important;
     padding-right: 7.5rem !important;
 }
 
-.education{
-    display: flex;
-    flex-direction: row;
-    padding:  7.5rem 3rem;
+.education {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+    padding: 3rem 7.5rem;
 }
 
-    .left-container{
-        display: grid;
-        grid-template-rows: auto auto auto auto;
-        gap: 1.5rem;
-        height: auto;
-    }
+.left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 
-        .background{
-            display: grid;
-            grid-template-rows: 20px 20px;
-        }
+.careers {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 
-        .role{
-            display: grid;
-            grid-template-columns: auto;
-        }
+.career {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+}
+
+.role {
+    align-self: center;
+}
+
+.right-container {
+    align-self: start;
+}
 
 .pic-section{
     display: flex;
@@ -103,6 +122,11 @@ padding-right: 5rem !important;
     justify-content: center;
     gap: 1.5rem;
     width: 100%;
+}
+
+.interest{
+    padding: 3rem 7.5rem;
+
 }
 
 footer{
