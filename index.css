@@ -57,13 +57,25 @@
         font-weight: 400;
     }
 
+    a{
+        text-decoration: none; 
+    }
+
+
 /* define end */
 
 .nav-section{
     background-color: #FFFEF3 !important;
     padding-left: 5rem !important;
     padding-right: 5rem !important;
+    border-bottom: 1px solid #BDBDBD;
 }
+
+    .nav-text{
+        font-weight: 700;
+    }
+    
+
 
 .mingcute--right-fill {
     display: inline-block;
@@ -84,6 +96,16 @@
     background-color: var(--lightyellow);
     padding: 5rem 7.5rem !important;
 }
+
+    .read-more{
+        font-weight: 700;
+        font-size: 1rem;
+        color: var(--black);
+    }
+
+    .read-more:hover{
+        color: #525252;
+    }
 
 .hackathon-section{
     background-color: var(--lightpurple);
