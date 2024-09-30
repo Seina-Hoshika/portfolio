@@ -22,6 +22,12 @@
         font-size: 2rem;
     }
 
+    @media only screen and (max-width: 647px) {
+        h1{
+            font-size: 1.5rem;
+        }
+    }
+
     .bold-xl{
         font-size: 1.5rem;
         font-weight: 700;
@@ -74,8 +80,13 @@
     .nav-text{
         font-weight: 700;
     }
-    
 
+
+
+.seina-icon{
+    min-width: 320px;
+    height: auto;
+}
 
 .mingcute--right-fill {
     display: inline-block;
